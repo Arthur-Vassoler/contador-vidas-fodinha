@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jogo Fodinha - Contador de Vidas
 
-## Getting Started
+Este é um contador de vidas feito com React e Tailwind (usando o shadcn/ui) para um jogo que eu e meus amigos jogamos, inspirado no Truco, mas com nossas próprias regras e pontuações.
 
-First, run the development server:
+## 🃏 Sobre o jogo
+
+É baseado nas cartas e pontuação do Truco, mas adaptamos as regras para deixar o jogo mais divertido (e zoado 😄). Cada participante começa com **5 vidas**, e conforme perde rodadas, perde corações ❤️. O último sobrevivente ganha!
+
+## 🎮 Funcionalidades
+
+- ✅ Adicionar jogadores com nome e emoji
+- ✅ Cada jogador começa com 5 vidas (representadas por corações ❤️)
+- ✅ Ao clicar no card do jogador, uma vida é perdida (coração fica cinza 🖤)
+- ✅ Botão fixo no canto inferior direito para resetar todas as vidas
+- ✅ Animação de boas-vindas divertida no início
+
+## 💻 Tecnologias
+
+- [Next.js App Router](https://nextjs.org/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [React](https://react.dev/)
+- [Framer Motion](https://www.framer.com/motion/) (animações)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/) (ícones)
+
+## 📦 Instalação
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
